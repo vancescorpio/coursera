@@ -1,0 +1,68 @@
+/*#menu-top{
+  text-align: center;
+}*/
+
+#restaurant-name{
+  float: left;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  height: 700px;
+  width: 100%;
+  margin-bottom: 20px;
+  position: relative;
+  background-color: #829595;
+  padding: 2px 10px 10px 10px;
+}
+
+#title-1, #title-2{
+  font-size: 230%;
+  font-style: bold;
+  color: black;
+}
+
+#header-nav{
+  background-color: #6699cc;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+    border: 1px solid;
+    border-color:black;
+}
+
+/*.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid black;
+}*/
+
+.navbar-default .navbar-nav>li>a{
+  color: black;
+  background-color: #ffbb99;
+  border-top: 2px solid black;
+  /*
+  margin: 0px;
+  padding-bottom: 0px;*/
+}
+
+#nav-list{
+	margin: 0px;
+}
+
+.navbar-collapse {
+    padding-right: 0px;
+     padding-left: 0px;
+}
+
+#button:focus{
+  background-color: #6699cc;
+  border: 1px solid white;
+}
+
+#button:focus .icon-bar{
+  background-color: white;
+  border: 1px solid white;
+}
+
+
